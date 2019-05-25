@@ -4,6 +4,8 @@ This is a bug report for `electron-log`.  The bug is that when used with
 webpack, and if you attempt to redirect `console.log` to `electron-log` it will
 duplicate log messages.
 
+<https://github.com/megahertz/electron-log/issues/143>
+
 ## To reproduce
 
     yarn install
